@@ -11,6 +11,12 @@ public class ModItems {
     public static final Item COIN = registerItem("coin",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
+    public static final Item SILVER_COIN = registerItem("silver_coin",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+
+    public static final Item BRONZE_COIN = registerItem("bronze_coin",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(CavernMod.MOD_ID, name), item);
     }
