@@ -1,5 +1,6 @@
 {
-  "item.cavernmod.coin": "Coin",
+  "item.cavernmod.gold_coin": "Gold Coin",
   "item.cavernmod.silver_coin": "Silver Coin",
-  "item.cavernmod.bronze_coin": "Bronze Coin"
+  "item.cavernmod.bronze_coin": "Bronze Coin",
+  "itemGroup.cavernmod.cavern": "Cavern Mod"
 }
